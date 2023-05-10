@@ -1,0 +1,156 @@
+<style>
+    .web-dev-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .web-dev-hire-left {
+        flex-basis: 80%;
+    }
+
+    .web-dev-hire-right {
+        flex-basis: 35%;
+    }
+
+    #scroll-fun {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 50px;
+    }
+
+    @media only screen and (max-width: 650px) {
+        .web-dev-container {
+            flex-direction: column;
+        }
+
+        .web-dev-hire-right {
+            display: none;
+        }
+    }
+
+    h1 {
+        margin-top: 45px;
+        font-size: 2rem;
+    }
+
+    h3 {
+
+        margin-top: 50px;
+        font-size: 17.3px;
+        font-weight: 700;
+
+    }
+
+    h2,
+    .h2 {
+        margin-top: 50px;
+        font-size: 20.8px;
+        font-weight: 700;
+        line-height: 31.2px;
+    }
+    .img-resp{
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+    .cta .show-box{
+        background:none;
+    }
+    .cta .show-box:hover{
+        background:none;
+    }
+    .cta a{
+        background:none;
+    }
+
+    .side-top h3 {
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+
+
+    .side a {
+        text-decoration: none;
+        color: black !important;
+        font-size: 20px;
+    }
+    .side a:hover {
+        text-decoration: underline;
+        color: black !important;
+    }
+    #ticket_form {
+        font-family: Verdana, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        color: dimgray;
+        width: 100%;
+        border: 1px solid lightgray;
+        padding: 16px;
+    }
+
+    .title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 2rem;
+        padding: 40px 0;
+        background-color: #662547;  
+        width: 100%;
+        display: flex; 
+        justify-content: center;
+    }
+
+    .banner {
+        max-width: 100%;
+        height: auto;
+        width: 800px;
+    }
+
+    form ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    form li {
+        margin: 0 0 6px 0;
+    }
+
+    textarea {
+        vertical-align: top;
+        border-color: lightgray;
+    }
+
+    .field {
+        width: 100%;
+    }
+    input[type=submit] {
+        background-color: #951a1d;
+        color: #FFF;
+        margin-bottom: 20px;
+    }
+</style>
+
+
+<div>
+    <div class="title">
+        <div style="max-width: 870px;">        
+            <img src="https://assets.cdn.filesafe.space/p6EtK8v3yBJR5EN3nQdk/media/643d60dea30d15442cf6e7ca.png" class="banner">
+        </div>
+
+    </div>
+    <div class="live-page web-dev-container" style="max-width: 870px; margin: 0 auto;">
+        <div class="web-dev-hire-left">
+            <h1>Have a question or need support around the Intensive? </h1>
+            
+            <p>If you have a question about the Advanced Approaches to Research Intensive, or need support attending the Intensive?</p>
+
+            <p>Please don’t hesitate to reach out to us. Leave us a message with your issue and we’ll answer as quickly as we can.</p>
+
+            <p>We’re a small team that works from 8:30 am to 5:30 pm U.S. Eastern Time on Monday through Friday. It may take us until our next business day to get an answer to you. Rest assured, we will respond to every message we get.</p>
+
+            [zendesk_request_form subject_prefix="UIE: " priority="normal" useragent="no" redirect="https://www.centercentre.com/thank-you/" assignee="8884867706139"]
+    </div>
+</div>
+<script>
+document.getElementById("zrf_submit").value = "Send Your Message";
+</script>
